@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Virtual Environment
+venv/
+.env
+
+# Reports (optional)
+# reports/*.xlsx
+
+# Large raw datasets (recommended)
+data/raw/
+
+# Keep cleaned data if desired
+# data/cleaned/
