@@ -4,8 +4,8 @@ from scripts.data_quality_report import *
 from scripts.clean_data import *
 from scripts.cleaning_log import *
 from scripts.profiling_report import *
+from scripts.generate_schema import *
 
-print("\n")
-print("=" * 70)
-print("MILESTONE 2 COMPLETED SUCCESSFULLY")
-print("=" * 70)
+print("="*70)
+print("MILESTONE 3 - SCHEMA GENERATED")
+print("="*70)
