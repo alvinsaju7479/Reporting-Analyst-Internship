@@ -595,32 +595,6 @@
         </objects>
       </object-graph>
     </datasource>
-    <datasource inline='true' name='Clipboard_20260822T084643' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='Clipboard_20260822T084643' name='Clipboard_20260822T084643leaf'>
-            <connection class='textscan' directory='/Users/alvinsaju/Documents/My Tableau Repository/Datasources' filename='Clipboard_20260822T084643.txt' />
-          </named-connection>
-        </named-connections>
-        <relation connection='Clipboard_20260822T084643leaf' name='Clipboard_20260822T084643#txt' table='[Clipboard_20260822T084643#txt]' type='table' />
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Clipboard_20260822T084643' datatype='table' name='[__tableau_internal_object_id__].[Clipboard_20260822T084643]' role='measure' type='quantitative' />
-      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;Ireland&quot;' />
-      </semantic-values>
-      <date-options start-of-week='monday' />
-      <object-graph>
-        <objects>
-          <object caption='Clipboard_20260822T084643' id='Clipboard_20260822T084643'>
-            <properties context=''>
-              <relation connection='Clipboard_20260822T084643leaf' name='Clipboard_20260822T084643#txt' table='[Clipboard_20260822T084643#txt]' type='table' />
-            </properties>
-          </object>
-        </objects>
-      </object-graph>
-    </datasource>
   </datasources>
   <shared-views>
     <shared-view name='federated.0yjq4w80bii3iu1en0feo112jlsk'>
@@ -1142,28 +1116,6 @@
       </table>
       <simple-id uuid='{CE888E03-F269-4A6E-8915-8BC674B9BBF3}' />
     </worksheet>
-    <worksheet name='Sheet 11'>
-      <table>
-        <view>
-          <datasources>
-            <datasource name='Clipboard_20260822T084643' />
-          </datasources>
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-          </pane>
-        </panes>
-        <rows />
-        <cols />
-      </table>
-      <simple-id uuid='{EC621163-F900-4992-84CC-404C3C1C2CC9}' />
-    </worksheet>
     <worksheet name='Transactions by Department'>
       <table>
         <view>
@@ -1389,8 +1341,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1650' minheight='1650' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98008' id='37' param='vert' type-v2='layout-flow' w='98730' x='635' y='996'>
+            <zone h='100000' id='42' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98008' id='41' param='vert' type-v2='layout-flow' w='98730' x='635' y='996'>
                 <zone h='5230' id='32' type-v2='title' w='98730' x='635' y='996'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1550,8 +1502,8 @@
       <simple-id uuid='{E125CEF9-A7F4-4E12-9A55-3BF7D3ED31BD}' />
     </dashboard>
   </dashboards>
-  <windows source-height='51'>
-    <window class='dashboard' name='Executive Reporting Analytics Dashboard'>
+  <windows source-height='30'>
+    <window class='dashboard' maximized='true' name='Executive Reporting Analytics Dashboard'>
       <viewpoints>
         <viewpoint name='Data Quality by KPI' />
         <viewpoint name='Fraud Risk by Gateway' />
@@ -1577,29 +1529,6 @@
       </viewpoints>
       <active id='27' />
       <simple-id uuid='{B38E1809-65A3-4D76-A86F-DBFC732A1DB0}' />
-    </window>
-    <window class='worksheet' maximized='true' name='Sheet 11'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{9C4109BA-18A8-4713-9610-60A6EFAC5D31}' />
     </window>
     <window class='worksheet' hidden='true' name='Data Quality by KPI'>
       <cards>

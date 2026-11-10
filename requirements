@@ -1,0 +1,10 @@
+pandas
+numpy
+openpyxl
+matplotlib
+plotly
+sqlalchemy
+psycopg2-binary
+scikit-learn
+jupyter
+tabulate
